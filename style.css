@@ -1,0 +1,20 @@
+
+.headerFirst{
+    color:#2f4858;
+}
+
+.headerSecend {
+     color: gray;
+    }
+    .headerThird{
+        color: #683043;
+    }
+    .lastHeader{
+        color: #343068;
+    }
+    body{
+        background: lightgray;
+    }
+   a {
+       color: greenyellow;
+   }
