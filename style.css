@@ -1,23 +1,37 @@
-
-.headerFirst{
-    color:#2f4858;
+.headerFirst {
+  color: #2f4858;
 }
 
 .headerSecend {
-     color: gray;
-    }
-    .headerThird{
-        color: #683043;
-    }
-    .lastHeader{
-        color: #343068;
-    }
-    body{
-        background: lightgray;
-    }
-   a {
-       color: greenyellow;
-   }
-   p { 
-       color: firebrick;
-   }
+  color: gray;
+}
+.headerThird {
+  color: #683043;
+}
+.lastHeader {
+  color: #343068;
+}
+body {
+  background: lightgray;
+}
+a {
+  color: greenyellow;
+}
+p {
+  color: firebrick;
+}
+.navigation {
+  background: #ac7386;
+  padding: 16px;
+  
+  
+}
+.navigation__link{
+  color: #fff;
+  margin-right:26px;
+}
+.navigation__link--homepage{
+  margin-right: 16px;
+  color: white;
+  
+}

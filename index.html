@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    <heder>
-        <nav>
-            <a href="nauka-html.html">Kosmetyki dla cery normlanej</a>
-        </nav>
-    </heder>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <a  class="navigation__link--homepage" href="index.html">Strona główna</a>
+        <a  class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a  class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+      </nav>
+    </header>
     <main>
-        <img src="GLASS.jpg" alt= "KOSMETYKI"/>
-        <header id="top">
+      <img src="GLASS.jpg" alt="KOSMETYKI" />
+      <header id="top">
+        <h1 class="headerFirst">
+         Jestem Paulina.
+        </h1>
+      </header>
+      <section>
+        Mam 23 lata, jestem studentką na Uniwersytecie Ekonomicznym w Poznaniu.
+        <a href="#peeling">Przejdź do złuszczania</a>
+      </section>
+      <section id="peeling">
+        <h2 class="headerSecend">Nauka front-endu</h2>
+        <article>
+          <p>
+            W wakację chcę ukończyc kurs  WTF. 
+          </p>
+        </article>
 
-            <h1 class="headerFirst">Kosmetyki dla cery problematycznej i mieszanej</h1> 
-        </header>
-        <section>
-            Kuracja dla osób borykajacych się z problemami skórnymi. <a href="#peeling">Przejdź do złuszczania</a>
-        </section>
-        <section id="peeling">
-            <h2 class="headerSecend"> Naturalny peeling enzymatyczny
-            </h2>
-            <article>
-                <p>Skutecznie oczyszcza, złuszcza. Reguluje nadmiar sebum, nawilża. 
-                Poprawia kondycję i wygląd skóry. Stosowany również przy cerze normalnej.   </p>
-                </article>
-    
-            <h3 class="headerThird">Tonik glikolowy 5%</h3>
-            <article> 
-                <p>Złuszcza, wygładza, oczyszcza. Zmniejsza widoczność porów i zaskórników. <br>
-                    Tonizuje, przywraca naturalne PH.</p>
-            </article>
+        <h3 class="headerThird">Lekcja </h3>
+        <article>
+          <p>
+            Jestem w czwartym tygodniu kursu, przy lekcji BEM.  <br> 
+            W ten sposób chciałabym nauczyc się porządkować moją wiedzę.
+          </p>
+        </article>
 
-            <h4 class="lastHeader">Serum z probiotykiem</h4>
-            <article> <p>Działa przeciw niedoskonałościom, zmniejsza widoczność porów. Matuje, nawilża, regeneruje.</p>
-            </article>
+        <h4 class="lastHeader">Kolejna lekcja</h4>
+        <article>
+          <p>
+            Jestem ciekawa  co będzie w dalszych tygodniach kursu.
+          </p>
+        </article>
+      </section>
+      <footer>
+        Pozdrawiam
+        <a href="#top">Wróć do początku</a>
+      </footer>
 
-        </section>
-        <footer>Informacje ze strony producenta
-            <a href="#top">Wróć do początku</a>
-        </footer>
-
-        <script src="main.js"></script>
+      <script src="main.js"></script>
     </main>
-</body>
-
+  </body>
 </html>
