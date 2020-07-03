@@ -1,27 +1,49 @@
 .headerFirst {
   color: #2f4858;
+  display: inline-block;
+  max-width: 700px;
+  padding-left: 500px;
+  
+}
+.flover{
+ padding-left: 30px;
+  min-width: 300px;
+
 }
 
+.mainInformation{
+  display: inline-block;
+  max-width: 550px;
+  padding: 0px 100px 0px 380px;
+}
+ 
 .headerSecend {
-  color: gray;
+  color:#2f4858;
+  padding-left: 100px;
 }
 .headerThird {
-  color: #683043;
+  color: #2f4858;
+  padding-left: 100px;
 }
 .lastHeader {
-  color: #343068;
+  color:#2f4858;
+  padding-left: 100px;
 }
 body {
   background: lightgray;
 }
 a {
-  color: greenyellow;
+  color: rgb(96, 117, 61);
+  display: inline-block;
+ 
+ 
 }
 p {
-  color: firebrick;
+  color: #386d54;
+  padding-left: 120px
 }
 .navigation {
-  background: #ac7386;
+  background: #1b3629;
   padding: 16px;
   
   
@@ -35,3 +57,5 @@ p {
   color: white;
   
 }
+
+
