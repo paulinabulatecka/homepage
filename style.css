@@ -17,18 +17,7 @@
   padding: 0px 100px 0px 380px;
 }
  
-.headerSecend {
-  color:#2f4858;
-  padding-left: 100px;
-}
-.headerThird {
-  color: #2f4858;
-  padding-left: 100px;
-}
-.lastHeader {
-  color:#2f4858;
-  padding-left: 100px;
-}
+
 body {
   background: lightgray;
 }
@@ -40,7 +29,7 @@ a {
 }
 p {
   color: #386d54;
-  padding-left: 120px
+  padding-left: 80px
 }
 .navigation {
   background: #1b3629;
@@ -57,5 +46,10 @@ p {
   color: white;
   
 }
+.allHeader {
+  color:#1b3629;
+  padding-left: 70px;
+}
+
 
 
