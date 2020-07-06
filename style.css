@@ -1,20 +1,20 @@
 .headerFirst {
   color: #2f4858;
   display: inline-block;
-  max-width: 700px;
-  padding-left: 500px;
-  
-}
-.flover{
- padding-left: 30px;
-  min-width: 300px;
 
 }
+.cat{
+padding-top: 20px;
+} 
+ 
+
+
 
 .mainInformation{
   display: inline-block;
-  max-width: 550px;
-  padding: 0px 100px 0px 380px;
+  max-width: 500px;
+  
+  
 }
  
 
@@ -23,33 +23,39 @@ body {
 }
 a {
   color: rgb(96, 117, 61);
-  display: inline-block;
+ 
  
  
 }
 p {
   color: #386d54;
-  padding-left: 80px
+  
 }
 .navigation {
   background: #1b3629;
-  padding: 16px;
+  padding:16px;
+  
+
   
   
 }
 .navigation__link{
   color: #fff;
-  margin-right:26px;
+  margin-right: 26px;
+ 
 }
 .navigation__link--homepage{
-  margin-right: 16px;
+  margin-right: 26px;
   color: white;
   
 }
 .allHeader {
   color:#1b3629;
-  padding-left: 70px;
+ 
 }
 
 
-
+.main{
+  max-width: 1000px;
+  margin: 0 auto;
+}
